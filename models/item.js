@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 const ObjectID = mongoose.Schema.Types.ObjectId
+const user = require('C:/Users/anuny/OneDrive/Desktop/ammu/models/user')
+
 const itemSchema = new mongoose.Schema({
     owner : {
        type: ObjectID,
